@@ -6,8 +6,12 @@ const MuiTypography = () => {
     <div>
       <Typography variant="h1">h1 Heading</Typography>
       <Typography variant="h2">h2 Heading</Typography>
-      <Typography variant="h3">h3 Heading</Typography>
-      <Typography variant="h4">h4 Heading</Typography>
+      <Typography variant="h3" component={'h2'}>
+        h3 Heading with semantic h2 tag, inspect the element
+      </Typography>
+      <Typography variant="h4" gutterBottom>
+        h4 Heading with gutterBottom on
+      </Typography>
       <Typography variant="h5">h5 Heading</Typography>
       <Typography variant="h6">h6 Heading</Typography>
       <Typography variant="subtitle1">subtitle 1 </Typography>
