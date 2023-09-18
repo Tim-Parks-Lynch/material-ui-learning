@@ -21,7 +21,16 @@ const MuiButton = () => {
   const handleFormatChange = (_event: React.MouseEvent<HTMLElement>, updatedFormats: string[]) => {
     setFormats(updatedFormats);
   };
+
+  // use below for exclusive keyword in Togggle Button Group
+  // const [formats, setFormats] = useState<string | null>;
+
+  // const handleFormatChange = (_event: React.MouseEvent<HTMLElement>, updatedFormats: string | null) => {
+  //   setFormats(updatedFormats);
+  // };
+
   console.log(formats);
+
   return (
     //Below is for the different types of buttons, grid and stack are used for flex/grid layout in a nice page
     // Run this code to see the types of buttons

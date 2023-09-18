@@ -46,6 +46,8 @@
 - you will need to handle state
 
 ```js
+// need useState to handle the state changes on the toggle
+// check the MuiButton Component to see example
 <ToggleButtonGroup
   size="small"
   aria-label="text-formating"
