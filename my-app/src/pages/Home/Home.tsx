@@ -3,7 +3,9 @@ import React from 'react';
 // import MuiButton from '@/components/MuiButton/MuiButton';
 // import { MuiTextField } from '@/components/MuiTextField/MuiTextField';
 // import { MuiSelect } from '@/components/MuiSelect/MuiSelect';
-import { MuiRadioButton } from '@/components/MuiRadioButton/MuiRadioButton';
+// import { MuiRadioButton } from '@/components/MuiRadioButton/MuiRadioButton';
+// import { MuiCheckbox } from '@/components/MuiCheckbox/MuiCheckbox';
+import { MuiSwitch } from '@/components/MuiSwitch/MuiSwitch';
 
 const Home = () => {
   return (
@@ -12,7 +14,9 @@ const Home = () => {
       {/* <MuiButton></MuiButton> */}
       {/* <MuiTextField></MuiTextField> */}
       {/* <MuiSelect></MuiSelect> */}
-      <MuiRadioButton></MuiRadioButton>
+      {/* <MuiRadioButton></MuiRadioButton> */}
+      {/* <MuiCheckbox></MuiCheckbox> */}
+      <MuiSwitch></MuiSwitch>
     </>
   );
 };
