@@ -5,7 +5,7 @@ export const MuiSwitch = () => {
   const [checked, setChecked] = useState(false);
   //   Can't have null as a return type in useState, it freaks out about controlled/uncontrolled components
   //   const [rating, setRating] = useState<number | null>(null);
-  const [rating, setRating] = useState<number | null>(3);
+  const [rating, setRating] = useState<number | null>(0);
 
   //   console.log({ checked });
   console.log({ rating });

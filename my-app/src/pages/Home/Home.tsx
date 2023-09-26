@@ -6,7 +6,7 @@ import React from 'react';
 // import { MuiRadioButton } from '@/components/MuiRadioButton/MuiRadioButton';
 // import { MuiCheckbox } from '@/components/MuiCheckbox/MuiCheckbox';
 import { MuiSwitch } from '@/components/MuiSwitch/MuiSwitch';
-
+import MuiAutocomplete from '@/components/MuiAutocomplete.tsx/MuiAutocomplete';
 const Home = () => {
   return (
     <>
@@ -16,7 +16,8 @@ const Home = () => {
       {/* <MuiSelect></MuiSelect> */}
       {/* <MuiRadioButton></MuiRadioButton> */}
       {/* <MuiCheckbox></MuiCheckbox> */}
-      <MuiSwitch></MuiSwitch>
+      {/* <MuiSwitch></MuiSwitch> */}
+      <MuiAutocomplete />
     </>
   );
 };
