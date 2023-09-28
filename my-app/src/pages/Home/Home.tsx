@@ -1,3 +1,4 @@
+import MuiLayout from '@/components/MuiLayout/MuiLayout';
 import React from 'react';
 // import MuiTypography from '@/components/MuiTypography/MuiTypography';
 // import MuiButton from '@/components/MuiButton/MuiButton';
@@ -5,8 +6,8 @@ import React from 'react';
 // import { MuiSelect } from '@/components/MuiSelect/MuiSelect';
 // import { MuiRadioButton } from '@/components/MuiRadioButton/MuiRadioButton';
 // import { MuiCheckbox } from '@/components/MuiCheckbox/MuiCheckbox';
-import { MuiSwitch } from '@/components/MuiSwitch/MuiSwitch';
-import MuiAutocomplete from '@/components/MuiAutocomplete.tsx/MuiAutocomplete';
+// import { MuiSwitch } from '@/components/MuiSwitch/MuiSwitch';
+// import MuiAutocomplete from '@/components/MuiAutocomplete.tsx/MuiAutocomplete';
 const Home = () => {
   return (
     <>
@@ -17,7 +18,8 @@ const Home = () => {
       {/* <MuiRadioButton></MuiRadioButton> */}
       {/* <MuiCheckbox></MuiCheckbox> */}
       {/* <MuiSwitch></MuiSwitch> */}
-      <MuiAutocomplete />
+      {/* <MuiAutocomplete /> */}
+      <MuiLayout />
     </>
   );
 };

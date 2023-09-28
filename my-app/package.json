@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/emre-cil/vite-mui-ts#readme",
   "scripts": {
+    "coverage": "jest --collect-coverage",
     "dev": "vite --open",
     "start": "vite --open",
     "host": "vite --open --host",
