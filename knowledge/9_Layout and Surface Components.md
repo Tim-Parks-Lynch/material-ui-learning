@@ -43,3 +43,18 @@
 - Paper is a surface related component in Mui.
   - it is great when using layouts, and provides visual hierarchy
   - adds a white background
+
+# Card component
+
+- contain content and actions about a single target
+- The card component will take up the dimensions of the parent container
+- checkout MuiCard component in the files for a good example
+
+# Accordion component
+
+- show and hide similar content on a page
+- check out MuiAccordion component
+
+# ImageList
+
+- used to display a collection of images in a coordinated grid
