@@ -15,6 +15,9 @@ import React from 'react';
 import MuiNavBar_AppBar from '@/components/MuiNavBar_AppBar/MuiNavBar_AppBar';
 // import MuiLink from '@/components/MuiLink/MuiLink';
 import MuiBreadCrumbs from '@/components/MuiBreadCrumbs/MuiBreadCrumbs';
+import MuiDrawer from '@/components/MuiDrawer/MuiDrawer';
+import MuiSpeedDial from '@/components/MuiSpeedDial/MuiSpeedDial';
+import MuiBottomNavigation from '@/components/MuiBottomNavigation/MuiBottomNavigation';
 
 const Home = () => {
   return (
@@ -35,6 +38,9 @@ const Home = () => {
       <MuiNavBar_AppBar></MuiNavBar_AppBar>
       {/* <MuiLink></MuiLink> */}
       <MuiBreadCrumbs></MuiBreadCrumbs>
+      <MuiDrawer></MuiDrawer>
+      <MuiSpeedDial></MuiSpeedDial>
+      <MuiBottomNavigation></MuiBottomNavigation>
       {/* // </Box> */}
     </>
   );
