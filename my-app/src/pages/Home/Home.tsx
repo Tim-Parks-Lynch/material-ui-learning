@@ -1,5 +1,5 @@
 // import MuiLayout from '@/components/MuiLayout/MuiLayout';
-import { Box } from '@mui/material';
+// import { Box } from '@mui/material';
 import React from 'react';
 // import MuiTypography from '@/components/MuiTypography/MuiTypography';
 // import MuiButton from '@/components/MuiButton/MuiButton';
@@ -11,10 +11,15 @@ import React from 'react';
 // import MuiAutocomplete from '@/components/MuiAutocomplete.tsx/MuiAutocomplete';
 // import MuiCard from '@/components/MuiCard/MuiCard';
 // import MuiAccordion from '@/components/MuiAccordion/MuiAccordion';
-import MuiImageList from '@/components/MuiImageList/MuiImageList';
+// import MuiImageList from '@/components/MuiImageList/MuiImageList';
+import MuiNavBar_AppBar from '@/components/MuiNavBar_AppBar/MuiNavBar_AppBar';
+// import MuiLink from '@/components/MuiLink/MuiLink';
+import MuiBreadCrumbs from '@/components/MuiBreadCrumbs/MuiBreadCrumbs';
+
 const Home = () => {
   return (
-    <Box bgcolor="primary.main" padding={10}>
+    <>
+      {/* // <Box bgcolor="primary.main" padding={10}> */}
       {/* <MuiTypography></MuiTypography>; */}
       {/* <MuiButton></MuiButton> */}
       {/* <MuiTextField></MuiTextField> */}
@@ -26,8 +31,12 @@ const Home = () => {
       {/* <MuiLayout /> */}
       {/* <MuiCard></MuiCard> */}
       {/* <MuiAccordion></MuiAccordion> */}
-      <MuiImageList></MuiImageList>
-    </Box>
+      {/* // <MuiImageList></MuiImageList> */}
+      <MuiNavBar_AppBar></MuiNavBar_AppBar>
+      {/* <MuiLink></MuiLink> */}
+      <MuiBreadCrumbs></MuiBreadCrumbs>
+      {/* // </Box> */}
+    </>
   );
 };
 
