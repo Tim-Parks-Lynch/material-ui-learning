@@ -19,6 +19,9 @@ import MuiDrawer from '@/components/MuiDrawer/MuiDrawer';
 import MuiSpeedDial from '@/components/MuiSpeedDial/MuiSpeedDial';
 import MuiBottomNavigation from '@/components/MuiBottomNavigation/MuiBottomNavigation';
 import MuiAvatar from '@/components/MuiAvatar/MuiAvatar';
+import MuiBadge from '@/components/MuiBadge/MuiBadge';
+import MuiList from '@/components/MuiList/MuiList';
+import MuiChip from '@/components/MuiChip/MuiChip';
 
 const Home = () => {
   return (
@@ -41,6 +44,9 @@ const Home = () => {
       <MuiBreadCrumbs></MuiBreadCrumbs>
       <MuiDrawer></MuiDrawer>
       <MuiAvatar></MuiAvatar>
+      <MuiBadge />
+      <MuiList />
+      <MuiChip />
       <MuiSpeedDial></MuiSpeedDial>
       <MuiBottomNavigation></MuiBottomNavigation>
       {/* // </Box> */}
