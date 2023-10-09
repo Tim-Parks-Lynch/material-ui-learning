@@ -18,4 +18,5 @@
 # Chip component
 
 - allow users to enter information, make selections, filter content, or trigger actions
-- showcasing tags on a blog post would be one example
+- showcasing tags on a blog post would be one example, or filtering types of items
+- by default a chip is read only, this can be changed, by handling the onclick event
