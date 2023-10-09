@@ -18,10 +18,13 @@ import MuiBreadCrumbs from '@/components/MuiBreadCrumbs/MuiBreadCrumbs';
 import MuiDrawer from '@/components/MuiDrawer/MuiDrawer';
 import MuiSpeedDial from '@/components/MuiSpeedDial/MuiSpeedDial';
 import MuiBottomNavigation from '@/components/MuiBottomNavigation/MuiBottomNavigation';
-import MuiAvatar from '@/components/MuiAvatar/MuiAvatar';
-import MuiBadge from '@/components/MuiBadge/MuiBadge';
-import MuiList from '@/components/MuiList/MuiList';
-import MuiChip from '@/components/MuiChip/MuiChip';
+// import MuiAvatar from '@/components/MuiAvatar/MuiAvatar';
+// import MuiBadge from '@/components/MuiBadge/MuiBadge';
+// import MuiList from '@/components/MuiList/MuiList';
+// import MuiChip from '@/components/MuiChip/MuiChip';
+// import MuiToolTip from '@/components/MuiToolTip/MuiToolTip';
+import MuiTable from '@/components/MuiTable/MuiTable';
+import MuiAlert from '@/components/MuiAlert/MuiAlert';
 
 const Home = () => {
   return (
@@ -43,10 +46,13 @@ const Home = () => {
       {/* <MuiLink></MuiLink> */}
       <MuiBreadCrumbs></MuiBreadCrumbs>
       <MuiDrawer></MuiDrawer>
-      <MuiAvatar></MuiAvatar>
-      <MuiBadge />
-      <MuiList />
-      <MuiChip />
+      {/* <MuiAvatar></MuiAvatar> */}
+      {/* <MuiBadge /> */}
+      {/* <MuiList /> */}
+      {/* <MuiChip /> */}
+      {/* <MuiToolTip /> */}
+      <MuiAlert />
+      <MuiTable />
       <MuiSpeedDial></MuiSpeedDial>
       <MuiBottomNavigation></MuiBottomNavigation>
       {/* // </Box> */}

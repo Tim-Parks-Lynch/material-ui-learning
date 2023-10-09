@@ -14,7 +14,8 @@ const MuiBottomNavigation = () => {
   return (
     <CssBaseline>
       <BottomNavigation
-        sx={{ width: '100%', position: 'absolute', bottom: 0 }}
+        // sx={{ width: '100%', position: 'absolute', bottom: 0 }}
+        sx={{ width: '100%', position: 'sticky', bottom: 0 }}
         value={value}
         onChange={handleChange}
         showLabels

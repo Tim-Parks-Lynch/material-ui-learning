@@ -11,7 +11,8 @@ const MuiSpeedDial = () => {
   return (
     <SpeedDial
       ariaLabel="Navigation speed dial"
-      sx={{ position: 'absolute', bottom: 16, right: 16 }}
+      // sx={{ position: 'absolute', bottom: 16, right: 16 }}
+      sx={{ position: 'fixed', bottom: 16, right: 16 }}
       //   regular icon below
       //   icon={<SpeedDialIcon />}
       // with open icon prop, changes the open Icon from + to an edit icon
