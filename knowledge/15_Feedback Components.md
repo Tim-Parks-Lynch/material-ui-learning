@@ -22,3 +22,8 @@
 
 - have linear and circular progress components
 - can be determinent or non determinent
+
+# Skeleton component
+
+- used to display a placeholder preview of the data being loaded to reduce wait time fustration
+- default is text so only one line shows
