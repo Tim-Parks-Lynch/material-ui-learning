@@ -25,6 +25,9 @@ import MuiBottomNavigation from '@/components/MuiBottomNavigation/MuiBottomNavig
 // import MuiToolTip from '@/components/MuiToolTip/MuiToolTip';
 import MuiTable from '@/components/MuiTable/MuiTable';
 import MuiAlert from '@/components/MuiAlert/MuiAlert';
+import MuiSnackbar from '@/components/MuiSnackbar/MuiSnackbar';
+import MuiDialog from '@/components/MuiDialog/MuiDialog';
+import MuiProgressIndicatior from '@/components/MuiProgressIndicator/MuiProgressIndicatior';
 
 const Home = () => {
   return (
@@ -51,6 +54,9 @@ const Home = () => {
       {/* <MuiList /> */}
       {/* <MuiChip /> */}
       {/* <MuiToolTip /> */}
+      <MuiProgressIndicatior />
+      <MuiDialog />
+      <MuiSnackbar></MuiSnackbar>
       <MuiAlert />
       <MuiTable />
       <MuiSpeedDial></MuiSpeedDial>
